@@ -154,10 +154,10 @@ export default function Home() {
             </div>
             
             <h1 className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-10">
-              <span className="animate-fadeIn animation-delay-200">
+              <span>
                 DAMNART DIGITAL:<br />
               </span>
-              <span className="text-gradient-blue inline-block sm:whitespace-nowrap animate-fadeIn animation-delay-300">
+              <span className="text-gradient-blue inline-block sm:whitespace-nowrap animate-fadeIn animation-delay-200">
                 <Typewriter words={["GROWTH PARTNER!", "SUCCESS STORY!", "CREATIVE ALLY!", "FUTURE SCALE!"]} />
               </span>
             </h1>
