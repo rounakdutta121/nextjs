@@ -23,6 +23,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://damnartusa.vercel.app'),
+  verification: {
+    google: '3D4xD7u47Lj6Xpt-360dQQnBNsZyc_iEMe8DPQg6l2o',
+  },
   title: {
     template: '%s | DamnArt - Digital Marketing Agency',
     default: 'DamnArt - Digital Marketing Agency',
