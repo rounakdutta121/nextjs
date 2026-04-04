@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { 
   Layout, ArrowRight, CheckCircle2, Mail, Phone, MapPin, 
   ChevronDown, Code, ShoppingCart, Globe, Settings, Search, 

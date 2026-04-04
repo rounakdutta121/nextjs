@@ -7,7 +7,7 @@ import {
   ArrowRight, Phone, MessageCircle, Download, 
   ChevronDown, Zap, Award, Star, Mail, MapPin, X, Check
 } from 'lucide-react'
-import { motion, AnimatePresence } from 'motion/react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { FadeIn, FloatingText, PulseText } from '@/components/Animations'
 import { Typewriter } from '@/components/Typewriter'
 import { ASSETS, services, testimonials, faqs } from '@/data'

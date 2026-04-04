@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { 
   Zap, ArrowRight, CheckCircle2, Mail, Phone, MapPin, 
   ChevronDown, Target, Users, Linkedin, Search, Phone as PhoneIcon, DollarSign, BarChart3, RefreshCw, Check

@@ -3,7 +3,7 @@
 import { ReactNode, useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { motion, AnimatePresence } from 'motion/react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, MessageCircle, Phone, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react'
 
 const NAV_ITEMS = [

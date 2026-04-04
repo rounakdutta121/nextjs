@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 export const FadeIn = ({ children, delay = 0, direction = 'up', distance = 20 }: { children: ReactNode, delay?: number, direction?: 'up' | 'down' | 'left' | 'right', distance?: number }) => {
   const directions = {

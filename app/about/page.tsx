@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'motion/react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { 
   Users, Target, Rocket, Shield, Award, 
   ArrowRight, Download, Mail, Phone, MapPin,

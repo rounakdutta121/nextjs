@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/blogs/page": "/blogs",
+  "/content-writing/page": "/content-writing",
+  "/contact/page": "/contact",
+  "/graphic-design/page": "/graphic-design",
+  "/data-mining/page": "/data-mining",
+  "/influencer-marketing/page": "/influencer-marketing",
+  "/digital-marketing-audit/page": "/digital-marketing-audit",
+  "/page": "/",
+  "/pay-per-valid-lead/page": "/pay-per-valid-lead",
+  "/lead-generation/page": "/lead-generation",
+  "/ppc/page": "/ppc",
+  "/seo/page": "/seo",
+  "/services/page": "/services",
+  "/web-development/page": "/web-development",
+  "/privacy/page": "/privacy",
+  "/smm/page": "/smm",
+  "/blog/[slug]/page": "/blog/[slug]"
+}

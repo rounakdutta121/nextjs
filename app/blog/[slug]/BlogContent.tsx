@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, Clock, BookOpen, Volume2, VolumeX, Lightbulb, CheckCircle, ArrowRight } from 'lucide-react';
 import { FadeIn } from '@/components/Animations';

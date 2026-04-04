@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 import { 
   Zap, Users, Layout, PenTool, Search, Award, 
   BarChart3, Database, Globe, Mail, ArrowRight,
