@@ -1,6 +1,12 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { Header, Footer, FloatingActions } from '../components/Layout'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0f172a',
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://damnartusa.vercel.app'),
@@ -9,7 +15,6 @@ export const metadata: Metadata = {
     default: 'DamnArt - Digital Marketing Agency',
   },
   description: 'Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.',
-  keywords: ['digital marketing', 'PPC', 'SEO', 'social media marketing', 'web development', 'graphic design'],
   authors: [{ name: 'DamnArt' }],
   openGraph: {
     type: 'website',
@@ -36,13 +41,15 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://damnartusa.vercel.app',
+  },
   icons: {
     icon: [
       { url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png', type: 'image/png' },
     ],
     apple: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png',
   },
-  themeColor: '#0f172a',
 }
 
 export default function RootLayout({
