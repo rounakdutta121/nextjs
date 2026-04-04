@@ -1,5 +1,4 @@
 import { MetadataRoute } from 'next'
-import { blogs } from '../data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://damnartusa.vercel.app'
@@ -55,12 +54,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  const blogPages: MetadataRoute.Sitemap = blogs.map((blog) => ({
-    url: `${baseUrl}/blog/${blog.slug}`,
-    lastModified: new Date(blog.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  return [...staticPages, ...servicePages, ...blogPages]
+  return [...staticPages, ...servicePages]
 }
