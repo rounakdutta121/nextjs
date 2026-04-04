@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { blogs } from './data'
+import { blogs } from '../data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://damnartusa.vercel.app'
