@@ -1,6 +1,19 @@
 import type { Metadata, Viewport } from 'next'
+import { Inter, Outfit } from 'next/font/google'
 import './globals.css'
 import { Header, Footer, FloatingActions } from '../components/Layout'
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+
+const outfit = Outfit({ 
+  subsets: ['latin'],
+  variable: '--font-outfit',
+  display: 'swap',
+})
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -58,7 +71,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+      </head>
       <body>
         <Header />
         <main>{children}</main>
