@@ -47,7 +47,7 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-3">
             <img 
-              src="https://res.cloudinary.com/dadofd9d2/image/upload/w_100,h_100,c_fill,f_auto,q_auto/v1775468089/Damnart_2_pv2hsr.png" 
+              src="https://res.cloudinary.com/dadofd9d2/image/upload/w_100,h_100,c_fill,f_auto,q_auto/v1775472387/Damnart_logo_dm5y88.png" 
               alt="DamnArt Logo" 
               width={100} 
               height={100} 
@@ -112,7 +112,7 @@ export function Footer() {
           <div className="space-y-8">
             <Link href="/" className="flex items-center gap-3">
               <img 
-                src="https://res.cloudinary.com/dadofd9d2/image/upload/w_100,h_100,c_fill,f_auto,q_auto/v1775468089/Damnart_2_pv2hsr.png" 
+                src="https://res.cloudinary.com/dadofd9d2/image/upload/w_100,h_100,c_fill,f_auto,q_auto/v1775472387/Damnart_logo_dm5y88.png" 
                 alt="DamnArt Logo" 
                 width={100} 
                 height={100} 
