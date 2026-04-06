@@ -375,24 +375,40 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 section-dark border-y border-white/5">
-        <div className="max-w-6xl mx-auto px-6">
-          <p className="text-center text-sm font-bold text-cyan-500 uppercase tracking-[0.3em] mb-8">
-            TRUSTED BY GLOBAL BRANDS & TECHNOLOGY PLATFORMS
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-            {[...ASSETS.platforms, ...ASSETS.clients].map((item, idx) => (
-              <img 
-                key={`${item.name}-${idx}`}
-                src={item.url} 
-                alt={item.name} 
-                className="h-8 w-auto object-contain brightness-0 invert" 
-                referrerPolicy="no-referrer" 
-                loading="lazy"
-              />
+      <section className="py-24 section-dark border-y border-white/5 overflow-hidden relative">
+        <div className="cyan-glow top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10" />
+        <div className="max-w-7xl mx-auto px-6 mb-12 relative z-10">
+          <FadeIn>
+            <p className="text-center text-sm font-bold text-cyan-500 uppercase tracking-[0.3em]">
+              <PulseText>TRUSTED BY GLOBAL BRANDS & TECHNOLOGY PLATFORMS</PulseText>
+            </p>
+          </FadeIn>
+        </div>
+        <FadeIn delay={0.2} distance={0}>
+          <div className="flex animate-scroll w-max py-8">
+            {[...Array(2)].map((_, i) => (
+              <div key={i} className="flex items-center gap-8 px-4">
+                {[...ASSETS.platforms, ...ASSETS.clients].map((item, idx) => (
+                  <div 
+                    key={`${item.name}-${idx}`} 
+                    className="flex-shrink-0 px-8 py-6 bg-cyan-500/10 border border-cyan-500/20 rounded-2xl flex items-center justify-center min-w-[180px] h-20 backdrop-blur-md"
+                  >
+                    <img 
+                      src={item.url} 
+                      alt={item.name} 
+                      className="h-14 w-auto object-contain" 
+                      referrerPolicy="no-referrer" 
+                      loading="lazy"
+                      decoding="async"
+                      width={180}
+                      height={56}
+                    />
+                  </div>
+                ))}
+              </div>
             ))}
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section id="blogs" className="py-32 section-dark border-y border-white/5 relative overflow-hidden">
