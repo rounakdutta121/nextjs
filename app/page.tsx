@@ -375,34 +375,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 section-dark border-y border-white/5 relative">
-        <div className="cyan-glow top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10" />
-        <div className="max-w-6xl mx-auto px-6 mb-8 relative z-10">
-          <FadeIn>
-            <p className="text-center text-sm font-bold text-cyan-500 uppercase tracking-[0.3em]">
-              <PulseText>TRUSTED BY GLOBAL BRANDS & TECHNOLOGY PLATFORMS</PulseText>
-            </p>
-          </FadeIn>
-        </div>
-        <FadeIn delay={0.2}>
-          <div className="max-w-6xl mx-auto px-6 flex flex-wrap justify-center items-center gap-8">
+      <section className="py-16 section-dark border-y border-white/5">
+        <div className="max-w-6xl mx-auto px-6">
+          <p className="text-center text-sm font-bold text-cyan-500 uppercase tracking-[0.3em] mb-8">
+            TRUSTED BY GLOBAL BRANDS & TECHNOLOGY PLATFORMS
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
             {[...ASSETS.platforms, ...ASSETS.clients].map((item, idx) => (
-              <div 
-                key={`${item.name}-${idx}`} 
-                className="flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
-              >
-                <img 
-                  src={item.url} 
-                  alt={item.name} 
-                  className="h-10 w-auto object-contain" 
-                  referrerPolicy="no-referrer" 
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
+              <img 
+                key={`${item.name}-${idx}`}
+                src={item.url} 
+                alt={item.name} 
+                className="h-8 w-auto object-contain brightness-0 invert" 
+                referrerPolicy="no-referrer" 
+                loading="lazy"
+              />
             ))}
           </div>
-        </FadeIn>
+        </div>
       </section>
 
       <section id="blogs" className="py-32 section-dark border-y border-white/5 relative overflow-hidden">
