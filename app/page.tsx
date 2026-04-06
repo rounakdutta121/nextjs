@@ -375,9 +375,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 section-dark border-y border-white/5 relative">
+      <section className="py-16 section-dark border-y border-white/5 relative">
         <div className="cyan-glow top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10" />
-        <div className="max-w-7xl mx-auto px-6 mb-12 relative z-10">
+        <div className="max-w-6xl mx-auto px-6 mb-8 relative z-10">
           <FadeIn>
             <p className="text-center text-sm font-bold text-cyan-500 uppercase tracking-[0.3em]">
               <PulseText>TRUSTED BY GLOBAL BRANDS & TECHNOLOGY PLATFORMS</PulseText>
@@ -385,16 +385,16 @@ export default function Home() {
           </FadeIn>
         </div>
         <FadeIn delay={0.2}>
-          <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 px-6">
+          <div className="max-w-6xl mx-auto px-6 flex flex-wrap justify-center items-center gap-8">
             {[...ASSETS.platforms, ...ASSETS.clients].map((item, idx) => (
               <div 
                 key={`${item.name}-${idx}`} 
-                className="p-4 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center h-24 backdrop-blur-md"
+                className="flex items-center justify-center grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
               >
                 <img 
                   src={item.url} 
                   alt={item.name} 
-                  className="h-12 w-auto object-contain" 
+                  className="h-10 w-auto object-contain" 
                   referrerPolicy="no-referrer" 
                   loading="lazy"
                   decoding="async"
