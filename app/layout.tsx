@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: 'Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.',
     images: [
       {
-        url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png',
+        url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1775468089/Damnart_2_pv2hsr.png',
         width: 100,
         height: 100,
         alt: 'DamnArt Logo',
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png', type: 'image/png' },
+      { url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1775468089/Damnart_2_pv2hsr.png', type: 'image/png' },
     ],
-    apple: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png',
+    apple: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1775468089/Damnart_2_pv2hsr.png',
   },
 }
 
