@@ -5,7 +5,7 @@ import {
 
 export const ASSETS = {
   logo: "https://res.cloudinary.com/dadofd9d2/image/upload/w_100,h_100,c_fill,f_auto,q_auto/v1772011438/Damn-Art-Logo-Final-Only-Logo-r6dasn0nfh4nzs4a4fd97txlvs2437uw1zu2i0825k_qe24gm.png",
-  heroVideo: "https://res.cloudinary.com/dadofd9d2/video/upload/v1772253161/grok-video-c2d455ef-9ee0-420a-8d87-a69c258a4cde_istqnb.mp4",
+  heroVideo: "https://res.cloudinary.com/dadofd9d2/video/upload/v1775707798/dark-cinematic-office-person-sitting-in-front-of-l_nmckai.mp4",
   servicesVideo: "https://res.cloudinary.com/dadofd9d2/video/upload/v1772086250/grok-video-a1b193e4-f078-451d-ab44-90803bd60335_m8lt1p.mp4",
   aboutVideo: "https://res.cloudinary.com/dadofd9d2/video/upload/v1772090766/grok-video-5e165ea8-7dba-46ea-8229-820090e8900b_ofdtqw.mp4",
   contactVideo: "https://res.cloudinary.com/dadofd9d2/video/upload/v1772427822/grok-video-7812e8ee-9c9a-4ab2-a72d-85732680452b_hm45hn.mp4",
