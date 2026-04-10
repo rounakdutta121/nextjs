@@ -116,11 +116,11 @@ export default function Home() {
             loop 
             muted 
             playsInline
-            className="absolute inset-0 w-full h-full object-fill opacity-50"
+            className="absolute inset-0 w-full h-full object-fill opacity-70"
           >
             <source src={ASSETS.heroVideo} type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-slate-950/50" />
+          <div className="absolute inset-0 bg-slate-950/30" />
           <div className="absolute inset-0 hero-gradient" />
         </div>
 
