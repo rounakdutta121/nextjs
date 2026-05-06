@@ -72,7 +72,7 @@ export default function Services() {
             <FadeIn delay={0.2}>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-sm font-bold mb-8 backdrop-blur-md">
                 <Zap size={16} />
-                <span>DAMNART SERVICES | SCALE YOUR BRAND</span>
+                <span>DIGIMARKETINGART SERVICES | SCALE YOUR BRAND</span>
               </div>
             </FadeIn>
             
@@ -89,7 +89,7 @@ export default function Services() {
 
             <FadeIn delay={0.8}>
               <p className="text-xl md:text-2xl text-slate-300 leading-relaxed mb-12 max-w-3xl font-medium">
-                DamnArt is a performance-driven digital marketing agency dedicated to scaling brands through 
+                DigiMarketingArt is a performance-driven digital marketing agency dedicated to scaling brands through 
                 AI-powered strategies and creative excellence. We don't just provide services; we build success stories.
               </p>
             </FadeIn>
@@ -250,7 +250,7 @@ export default function Services() {
               <div className="space-y-8">
                 {[
                   { icon: Phone, label: "Call Us", value: "+91-90565-44487" },
-                  { icon: Mail, label: "Email Us", value: "info@damnart.com" },
+                  { icon: Mail, label: "Email Us", value: "info@digimarketingartart.com" },
                   { icon: MapPin, label: "Visit Us", value: "Aero View Plaza, Punjab" }
                 ].map((item, i) => (
     

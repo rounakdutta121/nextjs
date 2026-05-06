@@ -54,7 +54,7 @@ export function Header() {
               loading="eager" 
               className="h-10 w-auto object-contain" 
             />
-            <span className="text-2xl font-black tracking-tighter text-white">DAMN<span className="text-blue-500">ART</span></span>
+            <span className="text-2xl font-black tracking-tighter text-white">DIGI<span className="text-blue-500">MARKETINGART</span></span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -119,17 +119,17 @@ export function Footer() {
                 loading="lazy" 
                 className="h-10 w-auto object-contain" 
               />
-              <span className="text-2xl font-black text-white tracking-tighter italic uppercase">DamnArt</span>
+              <span className="text-2xl font-black text-white tracking-tighter italic uppercase">DigiMarketingArt</span>
             </Link>
             <p className="text-slate-400 leading-relaxed max-w-xs">
               Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.
             </p>
             <div className="flex gap-4">
               {[
-                { Icon: Facebook, url: 'https://www.facebook.com/people/DamnArt-Digital-Marketing-Services/61562382662176/' },
-                { Icon: Instagram, url: 'https://www.instagram.com/damnartservices/' },
-                { Icon: Youtube, url: 'https://www.youtube.com/@DamnArt-g7k' },
-                { Icon: Linkedin, url: 'https://www.linkedin.com/company/damnart/?viewAsMember=true' }
+                { Icon: Facebook, url: 'https://www.facebook.com/people/DigiMarketingArt-Digital-Marketing-Services/61562382662176/' },
+                { Icon: Instagram, url: 'https://www.instagram.com/digimarketingartartservices/' },
+                { Icon: Youtube, url: 'https://www.youtube.com/@DigiMarketingArt-g7k' },
+                { Icon: Linkedin, url: 'https://www.linkedin.com/company/digimarketingartart/?viewAsMember=true' }
               ].map((social, i) => (
                 <motion.a 
                   key={i} 
@@ -172,7 +172,7 @@ export function Footer() {
             <h3 className="text-white font-bold mb-8 uppercase tracking-widest text-xs">Contact</h3>
             <ul className="space-y-4 text-slate-400">
               <li>
-                <a href="mailto:info@damnart.com" className="hover:text-blue-500 transition-colors">info@damnart.com</a>
+                <a href="mailto:info@digimarketingartart.com" className="hover:text-blue-500 transition-colors">info@digimarketingartart.com</a>
               </li>
               <li>
                 <a href="tel:+919056544487" className="hover:text-blue-500 transition-colors">+91-90565-44487</a>
@@ -182,7 +182,7 @@ export function Footer() {
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-sm text-slate-500">
-          <p>© 2026 DamnArt. All Rights Reserved.</p>
+          <p>© 2026 DigiMarketingArt. All Rights Reserved.</p>
           <div className="flex gap-8">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
           </div>

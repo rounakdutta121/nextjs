@@ -19,7 +19,7 @@ const blogPosts = [
     slug: "funnel-stages",
     title: "If Your Funnel Still Has Stages, You're Already Behind",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "11 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/w_600,f_auto,q_auto/v1774414178/Idhar-Udhar-ke-use-2025-04-11T101138.735-768x432_f7c6im.jpg",
@@ -30,7 +30,7 @@ const blogPosts = [
     slug: "whisper-marketing",
     title: "How Brands Are Secretly 'Whispering' to You on Social Media",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "9 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/w_600,f_auto,q_auto/v1774415128/unnamed-2025-04-09T143637.417-768x768_slsvrm.jpg",
@@ -41,7 +41,7 @@ const blogPosts = [
     slug: "design-brain-triggers",
     title: "Design Isn't What It Looks Like. It's What It Triggers in the Brain",
     category: "Design",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "8 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/w_600,f_auto,q_auto/v1774415549/Idhar-Udhar-ke-use-2025-04-08T101140.386_ud2lwi.jpg",
@@ -52,7 +52,7 @@ const blogPosts = [
     slug: "psychology-almost-buying",
     title: "The Psychology of 'Almost Buying': Why Do People Abandon Carts and Forms?",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "5 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/w_600,f_auto,q_auto/v1774432374/unnamed-2025-04-05T100557.309_z1zdzn.jpg",
@@ -155,7 +155,7 @@ export default function Home() {
             
             <h1 className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-10">
               <span>
-                DAMNART DIGITAL<br />
+                DIGIMARKETINGART DIGITAL<br />
               </span>
               <span className="text-gradient-blue inline-block sm:whitespace-nowrap animate-fadeIn animation-delay-200">
                 <Typewriter words={["GROWTH PARTNER!", "SUCCESS STORY!", "CREATIVE ALLY!", "FUTURE SCALE!"]} />
@@ -539,7 +539,7 @@ export default function Home() {
               <div className="space-y-8">
                 {[
                   { icon: Phone, label: "Call Us", value: "+91-90565-44487" },
-                  { icon: Mail, label: "Email Us", value: "info@damnart.com" },
+                  { icon: Mail, label: "Email Us", value: "info@digimarketingartart.com" },
                   { icon: MapPin, label: "Visit Us", value: "Aero View Plaza, Punjab" }
                 ].map((item, i) => (
                   <FadeIn key={i} direction="right" delay={0.2 + i * 0.1}>

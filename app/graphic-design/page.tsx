@@ -193,7 +193,7 @@ export default function GraphicDesign() {
                   Get a Quote <ArrowRight size={24} />
                 </motion.button>
                 <motion.a 
-                  href="https://calendly.com/damnart-contact/discovery-session-for-damnart"
+                  href="https://calendly.com/digimarketingart-contact/discovery-session-for-digimarketingart"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary px-12 py-5 text-xl justify-center"
@@ -363,7 +363,7 @@ export default function GraphicDesign() {
               <div className="space-y-8">
                 {[
                   { icon: Phone, label: "Call Us", value: "+91-90565-44487" },
-                  { icon: Mail, label: "Email Us", value: "info@damnart.com" },
+                  { icon: Mail, label: "Email Us", value: "info@digimarketingart.com" },
                   { icon: MapPin, label: "Visit Us", value: "Aero View Plaza, Punjab" }
                 ].map((item, i) => (
     

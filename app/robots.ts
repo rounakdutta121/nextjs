@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://damnartusa.vercel.app/sitemap.xml',
+    sitemap: 'https://digimarketingartusa.vercel.app/sitemap.xml',
   }
 }

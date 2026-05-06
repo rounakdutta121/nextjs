@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'www.damnart.com',
+        hostname: 'www.digimarketingart.com',
       },
       {
         protocol: 'https',

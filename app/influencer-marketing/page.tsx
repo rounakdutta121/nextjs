@@ -200,7 +200,7 @@ export default function InfluencerMarketing() {
                   Get a Quote <ArrowRight size={24} />
                 </motion.button>
                 <motion.a 
-                  href="https://calendly.com/damnart-contact/discovery-session-for-damnart"
+                  href="https://calendly.com/digimarketingartart-contact/discovery-session-for-digimarketingartart"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary px-12 py-5 text-xl justify-center"
@@ -363,7 +363,7 @@ export default function InfluencerMarketing() {
           <div className="text-center mb-20">
             <FadeIn>
               <h2 className="text-4xl md:text-6xl font-black text-white leading-tight uppercase italic mb-6">
-                Why <span className="text-gradient-blue">DamnArt</span> for Influencer Marketing?
+                Why <span className="text-gradient-blue">DigiMarketingArt</span> for Influencer Marketing?
               </h2>
             </FadeIn>
           </div>
@@ -425,7 +425,7 @@ export default function InfluencerMarketing() {
               <div className="space-y-8">
                 {[
                   { icon: Phone, label: "Call Us", value: "+91-90565-44487" },
-                  { icon: Mail, label: "Email Us", value: "info@damnart.com" },
+                  { icon: Mail, label: "Email Us", value: "info@digimarketingartart.com" },
                   { icon: MapPin, label: "Visit Us", value: "Aero View Plaza, Punjab" }
                 ].map((item, i) => (
     

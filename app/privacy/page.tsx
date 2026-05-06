@@ -8,7 +8,7 @@ export default function Privacy() {
   const sections = [
     {
       title: "1. Introduction",
-      content: "Welcome to Damnart (\"we,\" \"our,\" \"us\"). We are committed to protecting your personal information and ensuring transparency around how we collect, use, and safeguard your data. This Privacy Policy explains how we handle your information when you visit our website, interact with our services, or otherwise engage with our platform. By using our website and services, you consent to the practices described in this Privacy Policy."
+      content: "Welcome to Digimarketing (\"we,\" \"our,\" \"us\"). We are committed to protecting your personal information and ensuring transparency around how we collect, use, and safeguard your data. This Privacy Policy explains how we handle your information when you visit our website, interact with our services, or otherwise engage with our platform. By using our website and services, you consent to the practices described in this Privacy Policy."
     },
     {
       title: "2. Information We Collect",
@@ -148,7 +148,7 @@ export default function Privacy() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="mailto:info@damnart.com" 
+                href="mailto:info@digimarketingart.com" 
                 className="px-6 py-3 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-500 transition-colors"
               >
                 Email Us

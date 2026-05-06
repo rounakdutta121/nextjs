@@ -116,13 +116,13 @@ export default function Contact() {
           <FadeIn delay={0.2}>
             <div className="bg-white rounded-[2rem] overflow-hidden shadow-2xl min-h-[600px]">
               <InlineWidget 
-                url="https://calendly.com/damnart-contact/discovery-session-for-damnart" 
+                url="https://calendly.com/digimarketingartart-contact/discovery-session-for-digimarketingartart" 
                 styles={{ height: '600px' }}
                 prefill={{
                   name: "",
                   email: "",
                   customAnswers: {
-                    a1: "Discovery Session for DamnArt"
+                    a1: "Discovery Session for DigiMarketingArt"
                   }
                 }}
               />
@@ -149,7 +149,7 @@ export default function Contact() {
                   Ready to <span className="text-green-500">Talk?</span>
                 </h2>
                 <p className="text-xl text-slate-400 leading-relaxed font-medium">
-                  Maximize your business growth with Damnart's digital marketing expertise. 
+                  Maximize your business growth with Digimarketing's digital marketing expertise. 
                   Connect with our specialists to craft your success plan.
                 </p>
                 
@@ -162,7 +162,7 @@ export default function Contact() {
                   <div className="p-6 bg-white/5 rounded-2xl border border-green-500/20 hover:border-green-500/40 transition-all">
                     <Mail className="text-green-500 mb-4" size={32} />
                     <p className="text-white font-bold mb-1">Email Us</p>
-                    <p className="text-slate-400">info@damnart.com</p>
+                    <p className="text-slate-400">info@digimarketingartart.com</p>
                   </div>
                 </div>
 

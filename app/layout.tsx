@@ -22,35 +22,35 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://damnartusa.vercel.app'),
+  metadataBase: new URL('https://digimarketingartartusa.vercel.app'),
   verification: {
     google: '3D4xD7u47Lj6Xpt-360dQQnBNsZyc_iEMe8DPQg6l2o',
   },
   title: {
-    template: '%s | DamnArt - Digital Marketing Agency',
-    default: 'DamnArt - Digital Marketing Agency',
+    template: '%s | DigiMarketingArt - Digital Marketing Agency',
+    default: 'DigiMarketingArt - Digital Marketing Agency',
   },
   description: 'Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.',
-  authors: [{ name: 'DamnArt' }],
+  authors: [{ name: 'DigiMarketingArt' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://damnartusa.vercel.app',
-    siteName: 'DamnArt',
-    title: 'DamnArt - Digital Marketing Agency',
+    url: 'https://digimarketingartartusa.vercel.app',
+    siteName: 'DigiMarketingArt',
+    title: 'DigiMarketingArt - Digital Marketing Agency',
     description: 'Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.',
     images: [
       {
         url: 'https://res.cloudinary.com/dadofd9d2/image/upload/v1775472387/Damnart_logo_dm5y88.png',
         width: 100,
         height: 100,
-        alt: 'DamnArt Logo',
+        alt: 'DigiMarketingArt Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DamnArt - Digital Marketing Agency',
+    title: 'DigiMarketingArt - Digital Marketing Agency',
     description: 'Empowering brands with AI-driven strategies and creative excellence. Your partner in digital dominance.',
   },
   robots: {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://damnartusa.vercel.app',
+    canonical: 'https://digimarketingartartusa.vercel.app',
   },
   icons: {
     icon: [

@@ -185,7 +185,7 @@ export default function DigitalMarketingAudit() {
             
             <FadeIn delay={0.8}>
               <p className="text-xl md:text-2xl text-slate-300 leading-relaxed mb-6 max-w-3xl font-medium">
-                DAMNART specializes in auditing your digital presence to save time, money, and effort.
+                DIGIMARKETINGART specializes in auditing your digital presence to save time, money, and effort.
               </p>
               <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-3xl">
                 From Google Ads and Social Media Audits to Website Performance Analysis, we'll identify areas for improvement and provide actionable insights to boost your marketing efforts.
@@ -210,7 +210,7 @@ export default function DigitalMarketingAudit() {
                   I Need Audit <ArrowRight size={24} />
                 </motion.button>
                 <motion.a 
-                  href="https://calendly.com/damnart-contact/discovery-session-for-damnart"
+                  href="https://calendly.com/digimarketingart-contact/discovery-session-for-digimarketingart"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary px-12 py-5 text-xl justify-center"
@@ -556,7 +556,7 @@ export default function DigitalMarketingAudit() {
           <div className="text-center mb-20">
             <FadeIn>
               <h2 className="text-4xl md:text-6xl font-black text-white leading-tight uppercase italic mb-6">
-                Why Choose <span className="text-gradient-blue">Damnart?</span>
+                Why Choose <span className="text-gradient-blue">Digimarketing?</span>
               </h2>
             </FadeIn>
           </div>
@@ -642,7 +642,7 @@ export default function DigitalMarketingAudit() {
               <div className="space-y-8">
                 {[
                   { icon: Phone, label: "Call Us", value: "+91-90565-44487" },
-                  { icon: Mail, label: "Email Us", value: "info@damnart.com" },
+                  { icon: Mail, label: "Email Us", value: "info@digimarketingart.com" },
                   { icon: MapPin, label: "Visit Us", value: "Aero View Plaza, Punjab" }
                 ].map((item, i) => (
     
@@ -729,7 +729,7 @@ export default function DigitalMarketingAudit() {
         <div className="bubble bubble-rose b5" />
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-slate-500 text-sm text-center leading-relaxed">
-            <span className="font-bold text-slate-400">Disclaimer:</span> The Digital Marketing Audit Services offered by Damnart is intended to evaluate various aspects of your digital marketing efforts as per your request. The insights provided in the audit report will be based on current performance data and best practices. While we strive to offer actionable recommendations, results may vary based on your specific marketing goals and business context. For further consultations or more comprehensive services, please contact our team directly.
+            <span className="font-bold text-slate-400">Disclaimer:</span> The Digital Marketing Audit Services offered by Digimarketing is intended to evaluate various aspects of your digital marketing efforts as per your request. The insights provided in the audit report will be based on current performance data and best practices. While we strive to offer actionable recommendations, results may vary based on your specific marketing goals and business context. For further consultations or more comprehensive services, please contact our team directly.
           </p>
         </div>
       </section>

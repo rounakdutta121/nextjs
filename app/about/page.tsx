@@ -74,7 +74,7 @@ export default function About() {
             
             <FadeIn delay={0.8}>
               <p className="text-xl md:text-2xl text-slate-300 leading-relaxed mb-12 max-w-3xl font-medium">
-                DamnArt is a premier digital marketing agency dedicated to helping businesses grow and thrive. 
+                DigiMarketingArt is a premier digital marketing agency dedicated to helping businesses grow and thrive. 
                 With over 15 years of experience, we craft innovative strategies that align with the latest trends.
               </p>
             </FadeIn>
@@ -148,7 +148,7 @@ export default function About() {
                 <div className="relative service-card backdrop-blur-xl border border-purple-500/20">
                   <h3 className="text-2xl font-black text-white mb-6 uppercase tracking-widest">Want to Know us Better?</h3>
                   <p className="text-slate-400 mb-8 text-lg">
-                    Download DamnArt's Services' Portfolio to know what more we have to offer!
+                    Download DigiMarketingArt's Services' Portfolio to know what more we have to offer!
                   </p>
                   <motion.button 
                     whileHover={{ scale: 1.05 }}
@@ -244,7 +244,7 @@ export default function About() {
           <div className="text-center mb-20">
             <FadeIn>
               <h2 className="text-4xl sm:text-5xl md:text-8xl font-black text-white mb-8 leading-tight uppercase italic">
-                Why Choose <span className="text-gradient-purple">DamnArt?</span>
+                Why Choose <span className="text-gradient-purple">DigiMarketingArt?</span>
               </h2>
               <p className="text-2xl md:text-3xl font-black text-purple-500 mb-8 tracking-widest uppercase">
                 DIGITAL ADVERTISEMENT MARKETING NETWORK
@@ -299,7 +299,7 @@ export default function About() {
                   <Mail size={32} />
                 </div>
                 <p className="text-white font-bold mb-2 uppercase tracking-widest text-xs">Email Us</p>
-                <p className="text-xl font-bold text-white">info@damnart.com</p>
+                <p className="text-xl font-bold text-white">info@digimarketingartart.com</p>
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
@@ -354,7 +354,7 @@ export default function About() {
                   <Download size={32} className="text-purple-500" />
                 </div>
                 <h3 className="text-2xl font-black text-white mb-2">Download Our Brochure</h3>
-                <p className="text-slate-400">Enter your details and we'll send you the DamnArt Services Portfolio</p>
+                <p className="text-slate-400">Enter your details and we'll send you the DigiMarketingArt Services Portfolio</p>
               </div>
 
               <form onSubmit={handleModalSubmit} className="space-y-6">

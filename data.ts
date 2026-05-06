@@ -79,8 +79,8 @@ export const ASSETS = {
   ppcPlatforms: {
     google: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774324686/77_fqrvin.jpg",
     meta: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774324732/2-1_zqn9ol.jpg",
-    linkedin: "https://www.damnart.com/wp-content/uploads/2024/07/link.jpg",
-    taboola: "https://www.damnart.com/wp-content/uploads/2024/07/5.jpg",
+    linkedin: "https://www.digimarketingartart.com/wp-content/uploads/2024/07/link.jpg",
+    taboola: "https://www.digimarketingartart.com/wp-content/uploads/2024/07/5.jpg",
     bing: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774324811/4_az4nor.jpg"
   },
   smmPlatforms: {
@@ -92,7 +92,7 @@ export const ASSETS = {
     custom: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774330055/web-2-400x400_byfxjv.png",
     ecommerce: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774330117/333-400x400_alnywv.png",
     cms: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774330151/444_afas7z.png",
-    webapp: "https://www.damnart.com/wp-content/uploads/2024/08/55-400x400.png",
+    webapp: "https://www.digimarketingartart.com/wp-content/uploads/2024/08/55-400x400.png",
     maintenance: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774330230/9443_pvdczu.png",
     seo: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774330299/999-400x400_rdjrag.png"
   },
@@ -120,10 +120,10 @@ export const ASSETS = {
     analytics: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774333274/5149654-400x400_agxjr6.jpg"
   },
   social: {
-    facebook: "https://www.facebook.com/people/DamnArt-Digital-Marketing-Services/61562382662176/",
-    instagram: "https://www.instagram.com/damnartservices/",
-    youtube: "https://www.youtube.com/@DamnArt-g7k",
-    linkedin: "https://www.linkedin.com/company/damnart/?viewAsMember=true",
+    facebook: "https://www.facebook.com/people/DigiMarketingArt-Digital-Marketing-Services/61562382662176/",
+    instagram: "https://www.instagram.com/digimarketingartartservices/",
+    youtube: "https://www.youtube.com/@DigiMarketingArt-g7k",
+    linkedin: "https://www.linkedin.com/company/digimarketingartart/?viewAsMember=true",
     pinterest: "https://in.pinterest.com/pankajy0401/"
   }
 }
@@ -149,21 +149,21 @@ export const testimonials = [
     location: "India",
     industry: "Product Testing Laboratory",
     quote: "The team was very helpful and provided a very good service.",
-    summary: "DamnArt has successfully generated over 70 high-quality leads for the client, optimized their LinkedIn profile, and increased their revenue."
+    summary: "DigiMarketingArt has successfully generated over 70 high-quality leads for the client, optimized their LinkedIn profile, and increased their revenue."
   },
   {
     company: "Sustainable Futures Trainings",
     location: "Canada",
     industry: "ISO and QMS Training Providers",
     quote: "Weekly reports were provided, and everything was done through collaboration.",
-    summary: "Thanks to DamnArt's efforts, more than 100 leads were generated from the campaigns they developed."
+    summary: "Thanks to DigiMarketingArt's efforts, more than 100 leads were generated from the campaigns they developed."
   },
   {
     company: "EuroTech",
     location: "India",
     industry: "Assessment and Certification Service Providers",
     quote: "The team collaborated with us at every step.",
-    summary: "With DamnArt's help, 50 quality leads were generated at a high-cost value, which helped grow the business."
+    summary: "With DigiMarketingArt's help, 50 quality leads were generated at a high-cost value, which helped grow the business."
   }
 ]
 

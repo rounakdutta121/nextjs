@@ -14,7 +14,7 @@ const blogPosts = [
     slug: "funnel-stages",
     title: "If Your Funnel Still Has Stages, You're Already Behind",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "11 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774414178/Idhar-Udhar-ke-use-2025-04-11T101138.735-768x432_f7c6im.jpg",
@@ -25,7 +25,7 @@ const blogPosts = [
     slug: "whisper-marketing",
     title: "How Brands Are Secretly 'Whispering' to You on Social Media",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "9 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774415128/unnamed-2025-04-09T143637.417-768x768_slsvrm.jpg",
@@ -36,7 +36,7 @@ const blogPosts = [
     slug: "design-brain-triggers",
     title: "Design Isn't What It Looks Like. It's What It Triggers in the Brain",
     category: "Design",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "8 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774415549/Idhar-Udhar-ke-use-2025-04-08T101140.386_ud2lwi.jpg",
@@ -47,7 +47,7 @@ const blogPosts = [
     slug: "psychology-almost-buying",
     title: "The Psychology of 'Almost Buying': Why Do People Abandon Carts and Forms?",
     category: "Marketing",
-    author: "DamnArt",
+    author: "DigiMarketingArt",
     date: "5 April 2025",
     readTime: "3 Min",
     image: "https://res.cloudinary.com/dadofd9d2/image/upload/v1774432374/unnamed-2025-04-05T100557.309_z1zdzn.jpg",
@@ -138,7 +138,7 @@ export default function Blogs() {
             <FadeIn delay={0.2}>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-sm font-bold mb-8 backdrop-blur-md">
                 <BookOpen size={16} />
-                <span>DAMNART BLOGS | INSIGHTS & UPDATES</span>
+                <span>DIGIMARKETINGART BLOGS | INSIGHTS & UPDATES</span>
               </div>
             </FadeIn>
             
